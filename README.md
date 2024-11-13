@@ -1,6 +1,6 @@
 # Rahul_AI-Enhanced-Engagement-Tracker-for-Young-Learners_Infosys_Internship_Oct2024
 
- mage Processing
+Image Processing
 
 Libraries or Frame Works Used:
 OpenCV: Version 4.10.0.84
