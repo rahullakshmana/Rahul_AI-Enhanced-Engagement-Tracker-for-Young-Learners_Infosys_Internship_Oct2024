@@ -27,7 +27,7 @@ An innovative AI-powered toolkit designed to track and enhance engagement among 
      
      ![image2](https://github.com/user-attachments/assets/88280f51-1201-4248-b453-cf749dc2458c)
 
-      - **Output:**
+   - **Output:**
     
         
         ![morphological_transformation(opening)output](https://github.com/user-attachments/assets/2387b17c-5d70-4f03-9ece-42a7efa21760)
