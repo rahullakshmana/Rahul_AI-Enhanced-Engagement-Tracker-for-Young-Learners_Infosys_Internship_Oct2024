@@ -295,8 +295,7 @@ This rotates an image by 90 degrees around its center.
 
 - **Input:**
 
-![rahul](https://github.com/user-attachments/assets/61f1db18-9963-44da-9953-eea0fa10b9f7)
-
+![rahul_crop](https://github.com/user-attachments/assets/bde431b6-fb9e-4a5f-8641-a7c8d8e827db)
 
 
 
