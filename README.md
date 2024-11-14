@@ -220,12 +220,23 @@ This rotates an image by 90 degrees around its center.
 **Libraries/Frameworks Used**  
 - **OpenCV**: Version 4.10.0.84 - supports real-time video capture and processing, essential for dynamic content  
 
+
 **Developed Logics**  
 **1) Video_MultiVideo**: Reads images from a folder and displays their dimensions, helpful for batch processing.
+
+
 **2) Video_FPS**: Captures and displays real-time video, calculating Frames Per Second (FPS) to assess video performance.
+
+
 **3) Video_Save**: Captures live video from a webcam and saves it to a file for future analysis.
+
+
 **4) Video_Stack**: Horizontally stacks two video files, ideal for comparison or creating multi-angle views.
+
+
 **5) Video_Stream**: Streams live video feed, enabling real-time viewing and interaction.
+
+
 
 ---
 
