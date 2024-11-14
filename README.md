@@ -374,7 +374,8 @@ keeping.
 
 - **Output:**
 
-  ![face_recog_output](https://github.com/user-attachments/assets/b421e775-9ba2-4fe4-8199-784db36514dd)
+  ![excel_sc_dt_video_output](https://github.com/user-attachments/assets/11b9b401-209e-4eba-950c-03aa2b175395)
+
 ![excel_sc_dt_excel](https://github.com/user-attachments/assets/a05d4f8c-7289-448a-aa07-a0f30db938ed)
 
 
