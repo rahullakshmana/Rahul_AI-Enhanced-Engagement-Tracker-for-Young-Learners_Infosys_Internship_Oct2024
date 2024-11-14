@@ -42,6 +42,16 @@ An innovative AI-powered toolkit designed to track and enhance engagement among 
 
 **E) Image_Contour**: Detects and highlights contours, aiding in object identification and boundary marking.
 
+- **Input:**
+
+![image2](https://github.com/user-attachments/assets/fb33de56-5500-4138-be8b-ca0ccc18bf4b)
+
+
+- **Output:**
+
+  ![img_contouroutput](https://github.com/user-attachments/assets/d5ebe2e5-d269-4365-be9a-25ffaf292ecc)
+
+
 
 **F) Image_Crop**: Extracts specific regions of interest, ideal for focusing on particular details.
 
