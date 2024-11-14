@@ -37,7 +37,22 @@ An innovative AI-powered toolkit designed to track and enhance engagement among 
 **B) Image_Template**: Searches for specific patterns or objects within an image using template matching.
 
 
+- **Input:**
+
+  
+![image2](https://github.com/user-attachments/assets/88280f51-1201-4248-b453-cf749dc2458c)
+![template](https://github.com/user-attachments/assets/347e77fc-9047-41bc-9e3b-f03770ef1761)
+
+
+- **Output:**
+
+  
+![templateoutput](https://github.com/user-attachments/assets/1e8386c2-3648-4c80-b8ad-ec44b36e7c70)
+
+  
+
 **C) Image_Colour**: Allows dynamic adjustments of color attributes, enhancing image aesthetics or focusing on key areas.
+
 
 
 **D) Image_Concatenation**: Merges multiple images seamlessly, useful for side-by-side comparisons or feature demonstrations.
@@ -54,9 +69,6 @@ An innovative AI-powered toolkit designed to track and enhance engagement among 
 
 **F) Image_Edge Detection**: Uses filters to detect edges, enhancing details and outlines.
 
-![morphological_transformation(opening)output](https://github.com/user-attachments/assets/2387b17c-5d70-4f03-9ece-42a7efa21760)
-![morphological_transformation(closing)output](https://github.com/user-attachments/assets/5757aa47-da0b-42d9-8f4b-3ef64eda7268)
-![image2](https://github.com/user-attachments/assets/88280f51-1201-4248-b453-cf749dc2458c)
 
 **G) Image_Equalized**: Equalizes histograms to improve contrast and clarity in low-quality images.
 
