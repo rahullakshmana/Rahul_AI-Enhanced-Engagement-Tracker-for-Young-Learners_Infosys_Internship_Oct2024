@@ -291,26 +291,20 @@ This rotates an image by 90 degrees around its center.
 - **imutils**: Version 0.5.4 - provides additional utilities for efficient image manipulation  
 
 **Developed Logics**  
-### Face_Recognition 
+### Face Recognition Script
 
-This script captures real-time video from a webcam to identify a specific person’s face based on a preloaded reference image. It uses OpenCV for video processing and `face_recognition` for face detection and matching.
+This script uses real-time video from a webcam to identify a specific person’s face by comparing it to a reference image.
 
-#### Script Overview
+### Overview
 
-- **Setup**: Loads the target face data from a reference image and initializes the webcam for capturing video.
-- **Face Detection and Recognition**: Continuously captures frames from the video stream, detects faces in each frame, and compares each detected face with the known reference face using a confidence threshold.
-- **Threshold Check**: If the similarity of the detected face meets or exceeds the threshold, it is considered a match.
-- **Labeling**: Draws a bounding box around recognized faces and displays a label with the person’s name if a match is found; otherwise, shows a "Not Recognized" message.
-- **Display**: Presents a live video feed with identification labels to provide feedback.
-- **Exit Condition**: Press 'q' to close the video stream and release the camera.
+- **Setup**: Loads a target face from a reference image and opens the webcam.
+- **Face Detection**: Continuously captures video frames, detects faces, and checks if any match the target face.
+- **Labeling**: Shows "Recognized" if there’s a match; otherwise, displays "Not Recognized."
+- **Exit**: Press 'q' to end the video stream and close the program.
 
-## Usage
+Run the script to begin real-time face recognition with a confidence threshold for accuracy.
 
-1. Ensure the required libraries (`opencv-python` and `face_recognition`) are installed.
-2. Place the target person’s reference image in the script’s directory and update the file path.
-3. Run the script to start real-time face recognition.
 
-This setup provides a straightforward way to perform real-time face recognition using a confidence threshold for accurate identification.
 - **Input:**
 
 
