@@ -295,8 +295,8 @@ This rotates an image by 90 degrees around its center.
 
 - **Input:**
 
-![rahul_crop](https://github.com/user-attachments/assets/bde431b6-fb9e-4a5f-8641-a7c8d8e827db)
 
+![rahul_crop1](https://github.com/user-attachments/assets/2e82eb2d-fba7-40f5-9b68-612a9c69f96b)
 
 
 - **Output:**
@@ -305,7 +305,8 @@ This rotates an image by 90 degrees around its center.
 
 
 
-**B) Attendance_Save**: Automatically logs attendance based on recognized faces, streamlining record-keeping.
+**B) Attendance_Save**: Automatically logs attendance based on recognized faces, streamlining record-
+keeping.
 
 
 **C) Test**: A dedicated testing module for face recognition, ensuring functionality and reliability.
