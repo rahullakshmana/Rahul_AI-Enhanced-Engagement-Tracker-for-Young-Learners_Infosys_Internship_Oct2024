@@ -20,42 +20,24 @@ An innovative AI-powered toolkit designed to track and enhance engagement among 
 - **NumPy**: Provides efficient handling of large arrays for image manipulations  
 
 **Developed Logics**  
-**A) Image_Noise Removal & Closing Gaps**:
-   Cleans up images by removing noise and closing gaps to improve clarity.
-   - **Input:**
 
-     
-     ![image2](https://github.com/user-attachments/assets/88280f51-1201-4248-b453-cf749dc2458c)
-
-   - **Output:**
-    
-        
-        ![morphological_transformation(opening)output](https://github.com/user-attachments/assets/2387b17c-5d70-4f03-9ece-42a7efa21760)
-![morphological_transformation(closing)output](https://github.com/user-attachments/assets/5757aa47-da0b-42d9-8f4b-3ef64eda7268)
-
-   
-**B) Image_Template**: Searches for specific patterns or objects within an image using template matching.
-
-
-- **Input:**
-
-  
-![image2](https://github.com/user-attachments/assets/88280f51-1201-4248-b453-cf749dc2458c)
-![template](https://github.com/user-attachments/assets/347e77fc-9047-41bc-9e3b-f03770ef1761)
-
-
-- **Output:**
-
-  
-![templateoutput](https://github.com/user-attachments/assets/1e8386c2-3648-4c80-b8ad-ec44b36e7c70)
-
-  
 
 **C) Image_Colour**: Allows dynamic adjustments of color attributes, enhancing image aesthetics or focusing on key areas.
 
 
 
 **D) Image_Concatenation**: Merges multiple images seamlessly, useful for side-by-side comparisons or feature demonstrations.
+
+- **Input:**
+
+   ![image1](https://github.com/user-attachments/assets/cbe4f229-50ab-4eca-bb20-71411d0411a7)
+![image2](https://github.com/user-attachments/assets/fb33de56-5500-4138-be8b-ca0ccc18bf4b)
+
+
+- **Output:**
+
+  ![img_stack(vertical)output](https://github.com/user-attachments/assets/ce6192eb-5cdf-42c4-a792-cb5dd3ead590)
+![img_stack(horizontal)output](https://github.com/user-attachments/assets/db9c7710-debd-40a5-9445-2ebba9c7c81b)
 
 
 **E) Image_Contour**: Detects and highlights contours, aiding in object identification and boundary marking.
@@ -84,6 +66,39 @@ An innovative AI-powered toolkit designed to track and enhance engagement among 
 
 **K) Image_RGB to Gray**: Converts colorful images to grayscale, focusing on shape and structure.
 
+
+**A) Image_Noise Removal & Closing Gaps**:
+   Cleans up images by removing noise and closing gaps to improve clarity.
+   - **Input:**
+
+     
+     ![image2](https://github.com/user-attachments/assets/88280f51-1201-4248-b453-cf749dc2458c)
+
+   - **Output:**
+    
+        
+        ![morphological_transformation(opening)output](https://github.com/user-attachments/assets/2387b17c-5d70-4f03-9ece-42a7efa21760)
+![morphological_transformation(closing)output](https://github.com/user-attachments/assets/5757aa47-da0b-42d9-8f4b-3ef64eda7268)
+
+   
+
+
+**B) Image_Template**: Searches for specific patterns or objects within an image using template matching.
+
+
+- **Input:**
+
+  
+![image2](https://github.com/user-attachments/assets/88280f51-1201-4248-b453-cf749dc2458c)
+![template](https://github.com/user-attachments/assets/347e77fc-9047-41bc-9e3b-f03770ef1761)
+
+
+- **Output:**
+
+  
+![templateoutput](https://github.com/user-attachments/assets/1e8386c2-3648-4c80-b8ad-ec44b36e7c70)
+
+  
 
 **L) Image_Single Image**: Processes single image inputs, allowing targeted analysis.
 
