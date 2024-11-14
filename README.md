@@ -55,6 +55,17 @@ An innovative AI-powered toolkit designed to track and enhance engagement among 
 
 **F) Image_Crop**: Extracts specific regions of interest, ideal for focusing on particular details.
 
+- **Input:**
+
+![image2](https://github.com/user-attachments/assets/fb33de56-5500-4138-be8b-ca0ccc18bf4b)
+
+
+- **Output:**
+
+  ![img_crop](https://github.com/user-attachments/assets/79423a18-4dea-46d8-bf62-9b96cbe9e3f1)
+
+
+
 
 **E) Image_Detection and Erosion**: Identifies targeted areas and applies erosion to refine detected edges.
 
