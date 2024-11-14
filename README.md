@@ -537,11 +537,11 @@ This module is ideal for applications where attentiveness tracking is necessary,
 
 
 
-# Avg_Atten_Score Program
+### Avg_Atten_Score Program
 
 The Avg_Atten_Score program uses face recognition and head pose estimation to calculate an individual's average attentiveness in real-time based on a live video feed. It tracks whether the person is attentive or not by analyzing their head's yaw and pitch, logging the data, and saving screenshots.
 
-## Key Features
+#### Key Features
 
 - **Face Recognition**: Recognizes a known individual using `face_recognition`.
 - **Attentiveness Score**: Calculates a score based on head pose (yaw and pitch) and displays it in real-time.
@@ -550,7 +550,7 @@ The Avg_Atten_Score program uses face recognition and head pose estimation to ca
 - **Exit and Average Score**: Press 'q' to exit, and the program will calculate and save the average attentiveness score.
 
 
-## Usage
+#### Usage
 
 1. Place the reference image in the working directory.
 2. Run the program to start the video stream and tracking.
