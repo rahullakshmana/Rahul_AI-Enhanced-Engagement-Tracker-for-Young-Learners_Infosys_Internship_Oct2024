@@ -290,7 +290,9 @@ This rotates an image by 90 degrees around its center.
 - **face_recognition**: Version 1.3.0 - widely used for facial detection and recognition  
 - **imutils**: Version 0.5.4 - provides additional utilities for efficient image manipulation  
 
-**Developed Logics**  
+### Developed Logics
+
+
 ### Face Recognition Script
 
 This script uses real-time video from a webcam to identify a specific person’s face by comparing it to a reference image.
@@ -317,8 +319,18 @@ Run the script to begin real-time face recognition with a confidence threshold f
 
 
 
-**B) Attendance_Save**: Automatically logs attendance based on recognized faces, streamlining record-
-keeping.
+### Attendance_Save Script
+
+This script captures real-time video to recognize a specific person’s face, logs their attendance, and saves it to an Excel file for streamlined record-keeping.
+
+#### Overview
+
+- **Setup**: Loads the target face data and initializes the webcam.
+- **Face Recognition and Logging**: Detects faces in the video stream, compares them to the target face, and logs recognized faces with timestamps in a DataFrame.
+- **Attendance Recording**: Every 5 recognitions, the attendance data is saved to an Excel file, and the counter resets.
+- **Exit**: Press 'q' to end the video stream. Any remaining recognitions are saved to Excel before exit.
+
+This setup provides an automated attendance system that recognizes faces in real-time and logs attendance details efficiently.
 
 - **Input:**
 
@@ -333,7 +345,20 @@ keeping.
 
 
 
-**C) Test**: A dedicated testing module for face recognition, ensuring functionality and reliability.
+### Test Module
+
+This module provides a dedicated testing environment for face recognition, ensuring accurate functionality and reliability. It identifies faces in real-time, tracks entries with time intervals, and saves logs periodically.
+
+#### Overview
+
+- **Setup**: Loads target face data, initializes the webcam, and sets recognition and time thresholds.
+- **Face Detection and Logging**: Detects faces in the video feed, checks if the recognized person matches the target, and records recognized faces with timestamps.
+- **Timed Logging**: Logs each recognition at specific intervals, avoiding duplicates within a short timeframe, and resets the timer for new entries after a set gap.
+- **Periodic Save**: Automatically saves the recognition log to an Excel file every 30 seconds.
+- **Exit**: Press 'q' to end the video stream and save any remaining log data to Excel.
+
+This testing module provides an organized framework for real-time face recognition, enabling robust verification of recognition accuracy with time-based logging.
+
 
 - **Input:**
 
@@ -347,7 +372,20 @@ keeping.
 
 
 
-**D) Tools**: A collection of auxiliary processing functions supporting face recognition tasks.
+### Tools Module
+
+The Tools module offers a suite of auxiliary functions to enhance and support face recognition tasks, focusing on optimizing processing speed, accuracy, and data logging.
+
+#### Overview
+
+- **Setup**: Loads target face data, initializes the webcam, and sets confidence and frame skip parameters for efficient processing.
+- **Face Detection and Logging**: Detects faces in real-time, checks if the recognized person matches the known face, and logs their information with date and time.
+- **Optimized Processing**: Processes every second frame to reduce computational load while maintaining recognition accuracy.
+- **Batch Logging**: Once a target recognition count (e.g., 5) is met, attendance records are saved to an Excel file.
+- **Exit and Final Save**: Press 'q' to exit, triggering a final save of any remaining data to an Excel file.
+
+The Tools module provides essential utility functions that streamline the process of face recognition and logging, enhancing overall reliability and efficiency.
+
 
 - **Input:**
 
@@ -362,7 +400,20 @@ keeping.
 
 
 
-**E) Excel_SC**: Exports recognition data to Excel, enabling easy record management.
+### Excel_SC Module
+
+The Excel_SC module is designed to export recognized face data, along with timestamped screenshots, to an Excel file. This enables easy record management and retrieval, especially useful for attendance or security applications.
+
+#### Overview
+
+- **Directory Setup**: Creates a dedicated directory to save screenshots of recognized faces.
+- **Face Recognition and Screenshot Capture**: Detects faces in real-time, verifies them against a known image, and saves screenshots when a match is identified.
+- **Timed Logging**: Logs the recognized face with a screenshot every 2 minutes, with a 5-minute gap required before re-logging the same individual.
+- **Data Export**: All recognition data, including timestamps and screenshot paths, is saved to an Excel file upon completion.
+- **Exit and Final Save**: Press 'q' to exit, triggering a final save of the data, ensuring no logged information is missed.
+
+The Excel_SC module offers a streamlined approach to recording, managing, and exporting recognition data, supporting face recognition tasks with organized record-keeping.
+
 
 - **Input:**
 
@@ -376,7 +427,20 @@ keeping.
 
 
 
-**F) Excel_SC_DT**: Exports data with date-time stamps, ensuring timestamped records for accurate tracking.
+### Excel_SC_DT Module
+
+The Excel_SC_DT module is an enhanced tool for exporting face recognition data with precise date-time stamps. It ensures accurate, timestamped records, aiding in reliable tracking for attendance, security, or monitoring applications.
+
+#### Overview
+
+- **Screenshot Directory**: Creates a dedicated folder for storing recognized face screenshots with date-time stamps for easy management.
+- **Real-time Face Recognition with Timestamp Overlay**: Detects faces in real time, overlays the current date and time on the screenshot, and saves the image.
+- **Timed Logging Intervals**: Logs recognized faces every 2 minutes with a mandatory 5-minute gap before re-logging the same person, providing a well-structured timeline of appearances.
+- **Periodic Excel Export**: Exports recognition data, including date, time, and screenshot path, to an Excel file every 30 seconds, keeping data consistently updated.
+- **Exit and Final Save**: Press 'q' to exit, which triggers a final save to ensure all data is securely stored in Excel.
+
+The Excel_SC_DT module is ideal for applications requiring high accuracy in tracking, such as attendance systems or security monitoring, with easy access to data through organized Excel records and timestamped images.
+
 
 - **Input:**
 
@@ -391,7 +455,20 @@ keeping.
 ![excel_sc_dt_excel](https://github.com/user-attachments/assets/a05d4f8c-7289-448a-aa07-a0f30db938ed)
 
 
-**G) Landmark**: Detects facial landmarks, refining the recognition process by mapping facial features.
+### Landmark Module
+
+The Landmark module is designed to refine facial recognition accuracy by mapping and analyzing facial landmarks. This feature is particularly useful for monitoring attentiveness based on head pose and detecting distinct facial features.
+
+#### Overview
+
+- **Facial Landmark Detection**: Utilizes dlib’s landmark predictor to detect 68 facial landmarks (such as eyes, nose, mouth, and chin) on detected faces. Green dots mark these landmarks on the frame for visualization.
+- **Head Pose Estimation**: Computes head pose based on specific facial landmarks (nose tip, chin, eye corners, and mouth corners) to estimate the yaw, pitch, and roll of the face. This is crucial in determining if the person is looking straight (attentive) or away (not attentive).
+- **Attention Status Display**: Defines an "attentive" status based on head pose. If the yaw and pitch angles are within specific thresholds, the person is marked as attentive. An "Attentive" or "Not Attentive" label is displayed on the frame.
+- **Periodic Screenshot Logging**: Captures screenshots when the face is recognized, logging information including name, date, time, screenshot path, and attentiveness status.
+- **Timed Excel Exports**: Saves recognition data to an Excel file every 30 seconds, including date, time, and attentiveness, for consistent tracking and record-keeping.
+- **Exit and Final Save**: Press 'q' to exit, triggering a final save of all recognition and attentiveness data in Excel.
+
+This module is ideal for applications requiring attentiveness monitoring, such as online classes, security, or any setting where tracking head orientation and attention are important.
 
 
 - **Input:**
@@ -407,7 +484,45 @@ keeping.
 ![landmark_excel](https://github.com/user-attachments/assets/f143c849-2af7-4534-81b4-3b831baabe28)
 
 
-**H) Atten_Score**: Calculates attendance scores, enabling performance evaluation based on engagement.
+### Atten_Score Module
+
+The Atten_Score module is designed to calculate an attentiveness score based on the engagement of a person in front of the camera. This score is derived from the head pose estimation (yaw and pitch) and enables performance evaluation based on the individual's engagement level.
+
+#### Overview
+
+- **Attentiveness Score Calculation**: 
+  The attentiveness score is computed by analyzing the yaw and pitch of the head pose. The score is normalized between 0 and 1. A higher score indicates a more attentive person. The formula used is based on the yaw and pitch thresholds, where the score decreases as the head moves away from the frontal position.
+  
+- **Score Threshold**:
+  If the calculated attentiveness score is above a predefined threshold (0.5), the individual is considered "Attentive." Otherwise, the person is marked as "Not Attentive."
+
+- **Facial Landmark Detection**:
+  The module detects 68 facial landmarks using dlib's landmark predictor, marking them on the frame. This helps in analyzing head pose, which is crucial for calculating the attentiveness score.
+
+- **Real-Time Monitoring**:
+  The system runs on a live video feed, detecting faces and calculating the attentiveness score. It logs this data along with screenshots of the individual and saves it to an Excel file.
+
+- **Screenshot Logging**:
+  Screenshots are saved whenever a face is recognized and the attentiveness score is computed. These images are saved in a specified directory.
+
+- **Periodic Data Saving**:
+  The recognition events (name, date, time, attentiveness, and attention score) are saved to an Excel file every 30 seconds. The file also contains details about the screenshot taken during each event.
+
+- **Exit and Final Save**:
+  Press the 'q' key to stop the program. When exiting, the system will save any remaining recognition data to an Excel file.
+
+
+## Key Functions
+
+1. **`get_head_pose(landmarks)`**: 
+   - Calculates the head pose by finding the rotation and translation vectors from the facial landmarks.
+
+2. **`calculate_attention_score(yaw, pitch)`**: 
+   - Calculates the attentiveness score based on yaw and pitch head angles. The score ranges from 0 to 1, with higher values indicating greater attentiveness.
+
+
+This module is ideal for applications where attentiveness tracking is necessary, such as in online classes, meetings, or security systems requiring performance evaluation based on engagement levels.
+
 
 - **Input:**
 
@@ -422,7 +537,27 @@ keeping.
 
 
 
-**I) Avg_Atten_Score**: Averages scores across sessions, providing insights into long-term engagement trends.
+# Avg_Atten_Score Program
+
+The Avg_Atten_Score program uses face recognition and head pose estimation to calculate an individual's average attentiveness in real-time based on a live video feed. It tracks whether the person is attentive or not by analyzing their head's yaw and pitch, logging the data, and saving screenshots.
+
+## Key Features
+
+- **Face Recognition**: Recognizes a known individual using `face_recognition`.
+- **Attentiveness Score**: Calculates a score based on head pose (yaw and pitch) and displays it in real-time.
+- **Screenshot Logging**: Saves screenshots of the recognized individual when attentiveness is calculated.
+- **Data Saving**: Logs recognition events and saves them to an Excel file every 30 seconds.
+- **Exit and Average Score**: Press 'q' to exit, and the program will calculate and save the average attentiveness score.
+
+
+## Usage
+
+1. Place the reference image in the working directory.
+2. Run the program to start the video stream and tracking.
+3. The data is saved in an Excel file.
+
+This program is ideal for monitoring attentiveness in online classes, meetings, or security systems.
+
 
 - **Input:**
 
