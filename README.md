@@ -22,7 +22,7 @@ An innovative AI-powered toolkit designed to track and enhance engagement among 
 **Developed Logics**  
 
 
-**D) Image_Concatenation**: Merges multiple images seamlessly, useful for side-by-side comparisons or feature demonstrations.
+**A) Image_Concatenation**: Merges multiple images seamlessly, useful for side-by-side comparisons or feature demonstrations.
 
 - **Input:**
 
@@ -36,7 +36,7 @@ An innovative AI-powered toolkit designed to track and enhance engagement among 
 ![img_stack(horizontal)output](https://github.com/user-attachments/assets/db9c7710-debd-40a5-9445-2ebba9c7c81b)
 
 
-**E) Image_Contour**: Detects and highlights contours, aiding in object identification and boundary marking.
+**B) Image_Contour**: Detects and highlights contours, aiding in object identification and boundary marking.
 
 - **Input:**
 
@@ -49,7 +49,7 @@ An innovative AI-powered toolkit designed to track and enhance engagement among 
 
 
 
-**F) Image_Crop**: Extracts specific regions of interest, ideal for focusing on particular details.
+**C) Image_Crop**: Extracts specific regions of interest, ideal for focusing on particular details.
 
 - **Input:**
 
@@ -63,7 +63,7 @@ An innovative AI-powered toolkit designed to track and enhance engagement among 
 
 
 
-**E) Image_Detection and Erosion**: Identifies targeted areas and applies erosion to refine detected edges.
+**D) Image_Detection and Erosion**: Identifies targeted areas and applies erosion to refine detected edges.
 
 - **Input:**
 
@@ -78,7 +78,7 @@ An innovative AI-powered toolkit designed to track and enhance engagement among 
 
 
 
-**F) Image_Edge Detection**: Uses filters to detect edges, enhancing details and outlines.
+**E) Image_Edge Detection**: Uses filters to detect edges, enhancing details and outlines.
 
 - **Input:**
 
@@ -91,7 +91,7 @@ An innovative AI-powered toolkit designed to track and enhance engagement among 
 
 
 
-**G) Image_Equalized**: Equalizes histograms to improve contrast and clarity in low-quality images.
+**F) Image_Equalized**: Equalizes histograms to improve contrast and clarity in low-quality images.
 
 
 - **Input:**
@@ -108,7 +108,7 @@ An innovative AI-powered toolkit designed to track and enhance engagement among 
 
 
 
-**H) Image_HSV**: Converts RGB colors to HSV, useful for color-based filtering and analysis.
+**G) Image_HSV**: Converts RGB colors to HSV, useful for color-based filtering and analysis.
 
 
 - **Input:**
@@ -124,7 +124,7 @@ An innovative AI-powered toolkit designed to track and enhance engagement among 
 
 
 
-**I) Image_Morph**: Applies morphological transformations, helping in noise reduction and structure enhancement.
+**H) Image_Morph**: Applies morphological transformations, helping in noise reduction and structure enhancement.
 
 - **Input:**
 
@@ -137,7 +137,7 @@ An innovative AI-powered toolkit designed to track and enhance engagement among 
         ![morphological_transformation(opening)output](https://github.com/user-attachments/assets/2387b17c-5d70-4f03-9ece-42a7efa21760)
 ![morphological_transformation(closing)output](https://github.com/user-attachments/assets/5757aa47-da0b-42d9-8f4b-3ef64eda7268)
 
-**J) Image_Resize**: Resizes images, ensuring they meet specified dimensions for uniformity.
+**I) Image_Resize**: Resizes images, ensuring they meet specified dimensions for uniformity.
 
 
 - **Input:**
@@ -152,7 +152,7 @@ An innovative AI-powered toolkit designed to track and enhance engagement among 
 
 
 
-**K) Image_RGB to Gray**: Converts colorful images to grayscale, focusing on shape and structure.
+**J) Image_RGB to Gray**: Converts colorful images to grayscale, focusing on shape and structure.
 
 
 - **Input:**
@@ -180,7 +180,7 @@ This rotates an image by 90 degrees around its center.
 
 
 
-**B) Image_Template**: Searches for specific patterns or objects within an image using template matching.
+**L) Image_Template**: Searches for specific patterns or objects within an image using template matching.
 
 
 - **Input:**
@@ -209,7 +209,7 @@ This rotates an image by 90 degrees around its center.
   ![img_bluroutput](https://github.com/user-attachments/assets/ace8528d-723a-4289-86bf-51d9c996b74e)
 
 
-**A) Image_Noise Removal & Closing Gaps**:
+**N) Image_Noise Removal & Closing Gaps**:
    Cleans up images by removing noise and closing gaps to improve clarity.
 
 
