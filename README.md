@@ -22,20 +22,50 @@ An innovative AI-powered toolkit designed to track and enhance engagement among 
 **Developed Logics**  
 **A) Image_Noise Removal & Closing Gaps**:
    Cleans up images by removing noise and closing gaps to improve clarity.
+
+   
 **B) Image_Template**: Searches for specific patterns or objects within an image using template matching.
+
+
 **C) Image_Colour**: Allows dynamic adjustments of color attributes, enhancing image aesthetics or focusing on key areas.
+
+
 **D) Image_Concatenation**: Merges multiple images seamlessly, useful for side-by-side comparisons or feature demonstrations.
+
+
 **E) Image_Contour**: Detects and highlights contours, aiding in object identification and boundary marking.
+
+
 **F) Image_Crop**: Extracts specific regions of interest, ideal for focusing on particular details.
+
+
 **E) Image_Detection and Erosion**: Identifies targeted areas and applies erosion to refine detected edges.
+
+
 **F) Image_Edge Detection**: Uses filters to detect edges, enhancing details and outlines.
+
+
 **G) Image_Equalized**: Equalizes histograms to improve contrast and clarity in low-quality images.
+
+
 **H) Image_HSV**: Converts RGB colors to HSV, useful for color-based filtering and analysis.
+
+
 **I) Image_Morph**: Applies morphological transformations, helping in noise reduction and structure enhancement.
+
+
 **J) Image_Resize**: Resizes images, ensuring they meet specified dimensions for uniformity.
+
+
 **K) Image_RGB to Gray**: Converts colorful images to grayscale, focusing on shape and structure.
+
+
 **L) Image_Single Image**: Processes single image inputs, allowing targeted analysis.
+
+
 **M) Image_Blur**: Adds blur effects, reducing noise and highlighting important regions.
+
+
 
 ---
 
