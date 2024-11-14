@@ -22,10 +22,6 @@ An innovative AI-powered toolkit designed to track and enhance engagement among 
 **Developed Logics**  
 
 
-**C) Image_Colour**: Allows dynamic adjustments of color attributes, enhancing image aesthetics or focusing on key areas.
-
-
-
 **D) Image_Concatenation**: Merges multiple images seamlessly, useful for side-by-side comparisons or feature demonstrations.
 
 - **Input:**
@@ -69,23 +65,105 @@ An innovative AI-powered toolkit designed to track and enhance engagement among 
 
 **E) Image_Detection and Erosion**: Identifies targeted areas and applies erosion to refine detected edges.
 
+- **Input:**
+
+![image2](https://github.com/user-attachments/assets/fb33de56-5500-4138-be8b-ca0ccc18bf4b)
+
+
+- **Output:**
+
+ ![dilo_ero(eroded)output](https://github.com/user-attachments/assets/3547979e-849e-434b-8ab5-375f6f3fe693)
+![dilo_ero(dilated)output](https://github.com/user-attachments/assets/574d0959-cdf4-409e-9ed3-7ed987426b38)
+
+
+
 
 **F) Image_Edge Detection**: Uses filters to detect edges, enhancing details and outlines.
+
+- **Input:**
+
+![image2](https://github.com/user-attachments/assets/fb33de56-5500-4138-be8b-ca0ccc18bf4b)
+
+
+- **Output:**
+
+![img_edgeoutput](https://github.com/user-attachments/assets/591b31ed-12da-41d3-8735-e71183dc581c)
+
 
 
 **G) Image_Equalized**: Equalizes histograms to improve contrast and clarity in low-quality images.
 
 
+- **Input:**
+
+![image2](https://github.com/user-attachments/assets/fb33de56-5500-4138-be8b-ca0ccc18bf4b)
+
+
+- **Output:**
+
+ ![histogram_equlizationoutput](https://github.com/user-attachments/assets/2bc95cca-0983-4e73-b174-4f886e1d4f34)
+
+
+
+
+
 **H) Image_HSV**: Converts RGB colors to HSV, useful for color-based filtering and analysis.
+
+
+- **Input:**
+
+![image2](https://github.com/user-attachments/assets/fb33de56-5500-4138-be8b-ca0ccc18bf4b)
+
+
+- **Output:**
+
+  ![img_hsvoutput](https://github.com/user-attachments/assets/223c9397-c028-4823-a674-caf84b8a8367)
+
+
+
 
 
 **I) Image_Morph**: Applies morphological transformations, helping in noise reduction and structure enhancement.
 
+- **Input:**
+
+     
+     ![image2](https://github.com/user-attachments/assets/88280f51-1201-4248-b453-cf749dc2458c)
+
+   - **Output:**
+    
+        
+        ![morphological_transformation(opening)output](https://github.com/user-attachments/assets/2387b17c-5d70-4f03-9ece-42a7efa21760)
+![morphological_transformation(closing)output](https://github.com/user-attachments/assets/5757aa47-da0b-42d9-8f4b-3ef64eda7268)
 
 **J) Image_Resize**: Resizes images, ensuring they meet specified dimensions for uniformity.
 
 
+- **Input:**
+
+![image2](https://github.com/user-attachments/assets/fb33de56-5500-4138-be8b-ca0ccc18bf4b)
+
+
+- **Output:**
+
+  ![img_resizeoutput](https://github.com/user-attachments/assets/9a866714-ebaa-4c6c-bf4e-345a57513825)
+
+
+
+
 **K) Image_RGB to Gray**: Converts colorful images to grayscale, focusing on shape and structure.
+
+
+- **Input:**
+
+![image2](https://github.com/user-attachments/assets/fb33de56-5500-4138-be8b-ca0ccc18bf4b)
+
+
+- **Output:**
+
+  ![bgr2grayoutput](https://github.com/user-attachments/assets/d2b3714e-9bbd-4d3c-b415-ea7a8565af44)
+
+
 
 
 **A) Image_Noise Removal & Closing Gaps**:
@@ -125,6 +203,16 @@ An innovative AI-powered toolkit designed to track and enhance engagement among 
 
 
 **M) Image_Blur**: Adds blur effects, reducing noise and highlighting important regions.
+
+
+- **Input:**
+
+![image2](https://github.com/user-attachments/assets/fb33de56-5500-4138-be8b-ca0ccc18bf4b)
+
+
+- **Output:**
+
+  ![img_bluroutput](https://github.com/user-attachments/assets/ace8528d-723a-4289-86bf-51d9c996b74e)
 
 
 
