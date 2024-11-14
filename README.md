@@ -22,7 +22,7 @@ An innovative AI-powered toolkit designed to track and enhance engagement among 
 **Developed Logics**  
 **A) Image_Noise Removal & Closing Gaps**:
    Cleans up images by removing noise and closing gaps to improve clarity.
-   - **Input:**
+   - **Input:** (https://github.com/user-attachments/assets/88280f51-1201-4248-b453-cf749dc2458c)
 
    
 **B) Image_Template**: Searches for specific patterns or objects within an image using template matching.
@@ -45,6 +45,9 @@ An innovative AI-powered toolkit designed to track and enhance engagement among 
 
 **F) Image_Edge Detection**: Uses filters to detect edges, enhancing details and outlines.
 
+![morphological_transformation(opening)output](https://github.com/user-attachments/assets/2387b17c-5d70-4f03-9ece-42a7efa21760)
+![morphological_transformation(closing)output](https://github.com/user-attachments/assets/5757aa47-da0b-42d9-8f4b-3ef64eda7268)
+![image2](https://github.com/user-attachments/assets/88280f51-1201-4248-b453-cf749dc2458c)
 
 **G) Image_Equalized**: Equalizes histograms to improve contrast and clarity in low-quality images.
 
