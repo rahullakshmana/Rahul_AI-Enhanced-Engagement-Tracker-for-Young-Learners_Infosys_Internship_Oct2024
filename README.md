@@ -96,7 +96,8 @@ An innovative AI-powered toolkit designed to track and enhance engagement among 
 
 - **Input:**
 
-![image2](https://github.com/user-attachments/assets/fb33de56-5500-4138-be8b-ca0ccc18bf4b)
+![image1](https://github.com/user-attachments/assets/c7955530-f5f0-4387-8867-745da904dc96)
+
 
 
 - **Output:**
