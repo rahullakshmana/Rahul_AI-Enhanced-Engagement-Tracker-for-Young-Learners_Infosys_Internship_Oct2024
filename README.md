@@ -308,27 +308,119 @@ This rotates an image by 90 degrees around its center.
 **B) Attendance_Save**: Automatically logs attendance based on recognized faces, streamlining record-
 keeping.
 
+- **Input:**
+
+
+![rahul_crop1](https://github.com/user-attachments/assets/2e82eb2d-fba7-40f5-9b68-612a9c69f96b)
+
+
+- **Output:**
+
+  ![face_recog_output](https://github.com/user-attachments/assets/b421e775-9ba2-4fe4-8199-784db36514dd)
+![attendance_save_excel](https://github.com/user-attachments/assets/787c8f1d-d6fb-4172-88ab-6130ea9a2617)
+
+
 
 **C) Test**: A dedicated testing module for face recognition, ensuring functionality and reliability.
+
+- **Input:**
+
+
+![rahul_crop1](https://github.com/user-attachments/assets/2e82eb2d-fba7-40f5-9b68-612a9c69f96b)
+
+
+- **Output:**
+
+  ![face_recog_output](https://github.com/user-attachments/assets/b421e775-9ba2-4fe4-8199-784db36514dd)
+
 
 
 **D) Tools**: A collection of auxiliary processing functions supporting face recognition tasks.
 
+- **Input:**
+
+
+![rahul_crop1](https://github.com/user-attachments/assets/2e82eb2d-fba7-40f5-9b68-612a9c69f96b)
+
+
+- **Output:**
+
+  ![face_recog_output](https://github.com/user-attachments/assets/b421e775-9ba2-4fe4-8199-784db36514dd)
+![tools_excel](https://github.com/user-attachments/assets/5d20c690-d3e6-4168-a835-45c7626f9485)
+
+
 
 **E) Excel_SC**: Exports recognition data to Excel, enabling easy record management.
 
+- **Input:**
+
+
+![rahul_crop1](https://github.com/user-attachments/assets/2e82eb2d-fba7-40f5-9b68-612a9c69f96b)
+
+
+- **Output:**
+
+  ![face_recog_output](https://github.com/user-attachments/assets/b421e775-9ba2-4fe4-8199-784db36514dd)
+
+
 
 **F) Excel_SC_DT**: Exports data with date-time stamps, ensuring timestamped records for accurate tracking.
+
+- **Input:**
+
+
+![rahul_crop1](https://github.com/user-attachments/assets/2e82eb2d-fba7-40f5-9b68-612a9c69f96b)
+
+
+- **Output:**
+
+  ![face_recog_output](https://github.com/user-attachments/assets/b421e775-9ba2-4fe4-8199-784db36514dd)
+![excel_sc_dt_excel](https://github.com/user-attachments/assets/a05d4f8c-7289-448a-aa07-a0f30db938ed)
 
 
 **G) Landmark**: Detects facial landmarks, refining the recognition process by mapping facial features.
 
 
+- **Input:**
+
+
+![rahul_crop1](https://github.com/user-attachments/assets/2e82eb2d-fba7-40f5-9b68-612a9c69f96b)
+
+
+- **Output:**
+
+
+![Rahul_2024-11-08_21-44-43](https://github.com/user-attachments/assets/051e9382-90f6-4fa3-a7ff-d03d18bfcc24)
+![landmark_excel](https://github.com/user-attachments/assets/f143c849-2af7-4534-81b4-3b831baabe28)
+
+
 **H) Atten_Score**: Calculates attendance scores, enabling performance evaluation based on engagement.
+
+- **Input:**
+
+
+![rahul_crop1](https://github.com/user-attachments/assets/2e82eb2d-fba7-40f5-9b68-612a9c69f96b)
+
+
+- **Output:**
+
+![Rahul_2024-11-08_21-26-07](https://github.com/user-attachments/assets/d0e02776-1bbb-4427-bbd6-b50f477727ee)
+![atten_score_excel](https://github.com/user-attachments/assets/98716a35-6a04-4ab0-b832-36abedb4c4f7)
+
 
 
 **I) Avg_Atten_Score**: Averages scores across sessions, providing insights into long-term engagement trends.
 
+- **Input:**
+
+
+![rahul_crop1](https://github.com/user-attachments/assets/2e82eb2d-fba7-40f5-9b68-612a9c69f96b)
+
+
+- **Output:**
+
+![Rahul_2024-11-08_21-37-06](https://github.com/user-attachments/assets/3d4f4fcc-a003-47e2-add3-497cc7aa739c)
+![avg_attendance_score_excel](https://github.com/user-attachments/assets/b6c9d3ee-ea25-46ae-82d6-316dbd10118d)
 
 
 ---
@@ -337,4 +429,5 @@ keeping.
 
 ---
 
-Unlock new possibilities with this AI-powered toolkit, making learning more interactive, measurable, and impactful for young learners!
+Unlock new possibilities with this AI-power
+ed toolkit, making learning more interactive, measurable, and impactful for young learners!
