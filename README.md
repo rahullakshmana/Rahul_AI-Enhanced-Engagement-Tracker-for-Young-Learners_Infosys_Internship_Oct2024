@@ -169,7 +169,10 @@ An innovative AI-powered toolkit designed to track and enhance engagement among 
 
 **A) Image_Noise Removal & Closing Gaps**:
    Cleans up images by removing noise and closing gaps to improve clarity.
-  
+
+   
+**K) image_rotate**:
+This rotates an image by 90 degrees around its center.
 
 **B) Image_Template**: Searches for specific patterns or objects within an image using template matching.
 
