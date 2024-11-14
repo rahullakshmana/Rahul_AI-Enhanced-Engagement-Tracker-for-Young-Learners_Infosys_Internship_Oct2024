@@ -165,14 +165,20 @@ An innovative AI-powered toolkit designed to track and enhance engagement among 
   ![bgr2grayoutput](https://github.com/user-attachments/assets/d2b3714e-9bbd-4d3c-b415-ea7a8565af44)
 
 
-
-
-**A) Image_Noise Removal & Closing Gaps**:
-   Cleans up images by removing noise and closing gaps to improve clarity.
-
    
 **K) image_rotate**:
 This rotates an image by 90 degrees around its center.
+
+- **Input:**
+
+![image2](https://github.com/user-attachments/assets/fb33de56-5500-4138-be8b-ca0ccc18bf4b)
+
+
+- **Output:**
+
+  ![img_rotateoutput](https://github.com/user-attachments/assets/e55b0fad-6440-4814-8a78-2124afa5dbf1)
+
+
 
 **B) Image_Template**: Searches for specific patterns or objects within an image using template matching.
 
@@ -189,10 +195,6 @@ This rotates an image by 90 degrees around its center.
   
 ![templateoutput](https://github.com/user-attachments/assets/1e8386c2-3648-4c80-b8ad-ec44b36e7c70)
 
-  
-
-**L) Image_Single Image**: Processes single image inputs, allowing targeted analysis.
-
 
 **M) Image_Blur**: Adds blur effects, reducing noise and highlighting important regions.
 
@@ -206,6 +208,9 @@ This rotates an image by 90 degrees around its center.
 
   ![img_bluroutput](https://github.com/user-attachments/assets/ace8528d-723a-4289-86bf-51d9c996b74e)
 
+
+**A) Image_Noise Removal & Closing Gaps**:
+   Cleans up images by removing noise and closing gaps to improve clarity.
 
 
 ---
