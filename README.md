@@ -20,7 +20,8 @@ An innovative AI-powered toolkit designed to track and enhance engagement among 
 - **NumPy**: Provides efficient handling of large arrays for image manipulations  
 
 **Developed Logics**  
-- **A) Image_Noise Removal & Closing Gaps**: Cleans up images by removing noise and closing gaps to improve clarity.
+- **A) Image_Noise Removal & Closing Gaps**:
+   Cleans up images by removing noise and closing gaps to improve clarity.
 - **B) Image_Template**: Searches for specific patterns or objects within an image using template matching.
 - **C) Image_Colour**: Allows dynamic adjustments of color attributes, enhancing image aesthetics or focusing on key areas.
 - **D) Image_Concatenation**: Merges multiple images seamlessly, useful for side-by-side comparisons or feature demonstrations.
