@@ -3,8 +3,8 @@
 ## Image Processing
 
 ## Libraries or Frame Works Used:
-*OpenCV: Version 4.10.0.84
-*NumPy: For array manipulation
+* OpenCV: Version 4.10.0.84
+* NumPy: For array manipulation
 
 Developed Logics
 A) Image_Noise removal & Closing Gaps :-
