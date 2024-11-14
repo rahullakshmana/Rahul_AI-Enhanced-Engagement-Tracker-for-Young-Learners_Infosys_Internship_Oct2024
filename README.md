@@ -292,14 +292,44 @@ This rotates an image by 90 degrees around its center.
 
 **Developed Logics**  
 **A) Face_Recognition**: Recognizes and identifies faces in real-time, facilitating attendance tracking and security applications.
+
+- **Input:**
+
+![rahul](https://github.com/user-attachments/assets/61f1db18-9963-44da-9953-eea0fa10b9f7)
+
+
+
+
+- **Output:**
+
+  ![face_recog_output](https://github.com/user-attachments/assets/b421e775-9ba2-4fe4-8199-784db36514dd)
+
+
+
 **B) Attendance_Save**: Automatically logs attendance based on recognized faces, streamlining record-keeping.
+
+
 **C) Test**: A dedicated testing module for face recognition, ensuring functionality and reliability.
+
+
 **D) Tools**: A collection of auxiliary processing functions supporting face recognition tasks.
+
+
 **E) Excel_SC**: Exports recognition data to Excel, enabling easy record management.
+
+
 **F) Excel_SC_DT**: Exports data with date-time stamps, ensuring timestamped records for accurate tracking.
+
+
 **G) Landmark**: Detects facial landmarks, refining the recognition process by mapping facial features.
+
+
 **H) Atten_Score**: Calculates attendance scores, enabling performance evaluation based on engagement.
+
+
 **I) Avg_Atten_Score**: Averages scores across sessions, providing insights into long-term engagement trends.
+
+
 
 ---
 
