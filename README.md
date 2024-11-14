@@ -22,6 +22,7 @@ An innovative AI-powered toolkit designed to track and enhance engagement among 
 **Developed Logics**  
 **A) Image_Noise Removal & Closing Gaps**:
    Cleans up images by removing noise and closing gaps to improve clarity.
+   - **Input:**
 
    
 **B) Image_Template**: Searches for specific patterns or objects within an image using template matching.
