@@ -6,8 +6,8 @@
 * OpenCV: Version 4.10.0.84
 * NumPy: For array manipulation
 
-Developed Logics
-A) Image_Noise removal & Closing Gaps :-
+### Developed Logics
+### A) Image_Noise removal & Closing Gaps :-
 From the input image given, we can remove the noise and close the gaps
 B) Image_Template
 C) Image_Colour
