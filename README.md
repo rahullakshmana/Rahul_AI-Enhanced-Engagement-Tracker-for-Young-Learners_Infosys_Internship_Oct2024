@@ -248,8 +248,36 @@ This rotates an image by 90 degrees around its center.
 
 **Developed Logics**  
 **A) Data_Segregate**: Organizes images and corresponding labels, aiding in data management and accessibility.
+
+- **Input:**
+
+![input-annotations](https://github.com/user-attachments/assets/2bc763d5-1c9b-4925-934a-992e0e6e3c49)
+
+
+
+- **Output:**
+
+  ![output-annotations](https://github.com/user-attachments/assets/709af433-b1c5-43f3-aa83-c844a92808f8)
+
+
 **B) Label**: Draws bounding boxes around objects based on annotations, helping with object detection tasks.
+
+
+- **Output:**
+
+  ![output(gun)-annotations](https://github.com/user-attachments/assets/d44ad5d5-b881-4b6e-9682-4e92ece91bae)
+
+
+
+
 **C) Label_Manipulate**: Updates class numbers in label files, allowing flexibility in object class identification for training.
+
+- **Output:**
+
+  ![output(gun C)-annotations](https://github.com/user-attachments/assets/caeb1fa5-f23e-49b5-819f-862a73b2167d)
+
+
+
 
 ---
 
